@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ubuntu
+  name: nginx1
   labels:
-    app: ubuntu
+    app: nginx1
     tier: back_end
 spec:
   containers:
-  - name: ubuntu
-    image: ubuntu
+  - name: nginx1
+    image: nginx
 
